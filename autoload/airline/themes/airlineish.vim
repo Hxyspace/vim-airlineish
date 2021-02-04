@@ -43,10 +43,10 @@ let g:airline#themes#airlineish#palette.insert_modified = {
 
 let g:airline#themes#airlineish#palette.replace_modified = g:airline#themes#airlineish#palette.insert_modified
 let g:airline#themes#airlineish#palette.visual_modified = {
-      \ 'airline_c': [ s:V3[0]   , s:V4[0]   , s:V3[2]   , s:V4[3]   , ''     ] }
+      \ 'airline_c': [ s:V3[0]   , s:V4[0]   , s:V3[2]   , s:V4[2]   , ''     ] }
 
 let g:airline#themes#airlineish#palette.inactive_modified = {
-      \ 'airline_c': [ s:V1[1]   , ''        , s:V1[3]   , ''        , ''     ] }
+      \ 'airline_c': [ s:V3[1]   , ''        , s:V1[3]   , ''        , ''     ] }
 let g:airline#themes#airlineish#palette.normal_modified.airline_term = s:N3
 let g:airline#themes#airlineish#palette.visual_modified.airline_term = s:V2
 let g:airline#themes#airlineish#palette.terminal = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
